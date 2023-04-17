@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    background-color: #808080;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 60px;
+    font-variant: small-caps;
+    text-shadow: 3px 3px 3px black;
+    padding-top: 40px;
+    color: white;
+}
+
+h4{
+    text-align: center;
+    font-size: 40px;
+    font-variant: small-caps;
+    text-shadow: 3px 3px 3px black;
+    padding-top: 40px;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    font-size: 60px;
+    font-variant: small-caps;
+    text-shadow: 3px 3px 3px black;
+    color: white;
+}
+
+p{
+    font-variant: small-caps;
+    font-style: italic;
+    
+}
+
+#content1,
+#content2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+#content1 article,
+#content2 article{
+    background-color: #ECF0F1 ;
+    border-radius: 10px;
+    margin: 10px;
+    height: 770px;
+}
+
+#content1 article img,
+#content2 article img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    max-width: 400px;
+}
+
+#content1 article h1,
+#content2 article h1{
+    text-align: center;
+    font-size: 22px;
+    font-variant: small-caps;
+}
+
+/* Poderes do Wolverine */
+.combate1{
+    padding: 0 10px;
+    width: calc(100% - 20px);
+}
+
+.combat1{
+    height: 10px;
+    display: block;
+    background-color: blue;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.durabilidade1{
+    padding: 0 10px;
+    width: calc(100% - 20px);
+}
+
+.durability1{
+    height: 10px;
+    display: block;
+    background-color: yellow;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.inteligencia1{
+    padding: 0 10px;
+    width: calc(63% - 20px);
+}
+
+.intelligence1{
+    height: 10px;
+    display: block;
+    background-color: darkviolet;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.potencia1{
+    padding: 0 10px;
+    width: calc(89% - 20px);
+}
+
+.power1{
+    height: 10px;
+    display: block;
+    background-color: red;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.velocidade1{
+    padding: 0 10px;
+    width: calc(50% - 20px);
+}
+
+.speed1{
+    height: 10px;
+    display: block;
+    background-color: green;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.forca1{
+    padding: 0 10px;
+    width: calc(32% - 20px);
+}
+
+.strength1{
+    height: 10px;
+    display: block;
+    background-color: black;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+/* Poderes do Deadpool */
+.combate2{
+    padding: 0 10px;
+    width: calc(100% - 20px);
+}
+
+.combat2{
+    height: 10px;
+    display: block;
+    background-color: blue;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.durabilidade2{
+    padding: 0 10px;
+    width: calc(100% - 20px);
+}
+
+.durability2{
+    height: 10px;
+    display: block;
+    background-color: yellow;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.inteligencia2{
+    padding: 0 10px;
+    width: calc(69% - 20px);
+}
+
+.intelligence2{
+    height: 10px;
+    display: block;
+    background-color: darkviolet;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.potencia2{
+    padding: 0 10px;
+    width: calc(100% - 20px);
+}
+
+.power2{
+    height: 10px;
+    display: block;
+    background-color: red;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.velocidade2{
+    padding: 0 10px;
+    width: calc(50% - 20px);
+}
+
+.speed2{
+    height: 10px;
+    display: block;
+    background-color: green;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.forca2{
+    padding: 0 10px;
+    width: calc(32% - 20px);
+}
+
+.strength2{
+    height: 10px;
+    display: block;
+    background-color: black;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
